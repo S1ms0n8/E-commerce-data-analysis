@@ -29,10 +29,11 @@ This dataset contains information on 100k orders made between 2016 and 2018 acro
 ## 💻 Technical Analysis (Full SQL Codebase)
 
 ### 1. Advanced RFM Segmentation & Customer Retention
-*Objective: Categorize the 100k+ customer base and identify loyalty patterns.*
+*Categorizing customers by Recency,Frequency and Monetary value.*
 
 ```sql
--- 1A: RFM Segmentation Logic
+ Categorizing customers by Recency,Frequency and Monetary value.
+
 WITH base_metrics AS (
     SELECT 
         c.customer_unique_id,
